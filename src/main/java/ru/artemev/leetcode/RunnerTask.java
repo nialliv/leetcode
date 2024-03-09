@@ -3,9 +3,9 @@ package ru.artemev.leetcode;
 import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component
+@Service
 @Slf4j
 @RequiredArgsConstructor
 public class RunnerTask {

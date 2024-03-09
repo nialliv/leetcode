@@ -1,5 +1,8 @@
 package ru.artemev.leetcode.tasks.gameoflife;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class GameOfLife {
 
 
@@ -10,7 +13,7 @@ public class GameOfLife {
     4 - Любая мертвая клетка, имеющая ровно три живых соседа, становится живой клеткой, как бы путем размножения.
      */
 
-    public static void gameOfLife(int[][] board) {
+    public void gameOfLife(int[][] board) {
         int[][] oldBoard = new int[board.length][];
         for (int i = 0; i < board.length; i++) {
             oldBoard[i] = board[i].clone();
@@ -32,7 +35,7 @@ public class GameOfLife {
         }
     }
 
-    public static int getCountLiveNeighbours(int ix, int iy, int[][] board) {
+    public int getCountLiveNeighbours(int ix, int iy, int[][] board) {
         int result = 0;
         //left
         if (ix != 0) {
