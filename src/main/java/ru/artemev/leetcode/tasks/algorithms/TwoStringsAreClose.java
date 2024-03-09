@@ -1,4 +1,4 @@
-package ru.artemev.leetcode.tasks;
+package ru.artemev.leetcode.tasks.algorithms;
 
 import java.util.Arrays;
 

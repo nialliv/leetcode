@@ -1,4 +1,4 @@
-package ru.artemev.leetcode.tasks;
+package ru.artemev.leetcode.tasks.helpers;
 
 public class RgbToHex {
     public static String rgb(int r, int g, int b) {

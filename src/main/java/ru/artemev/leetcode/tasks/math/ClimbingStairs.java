@@ -1,4 +1,4 @@
-package ru.artemev.leetcode.tasks;
+package ru.artemev.leetcode.tasks.math;
 
 public class ClimbingStairs {
     public static int climbStairs(int n) {

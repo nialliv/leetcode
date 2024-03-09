@@ -1,4 +1,4 @@
-package ru.artemev.leetcode.tasks;
+package ru.artemev.leetcode.tasks.math;
 
 public class LeapYears {
     public static boolean isLeapYear(int year) {

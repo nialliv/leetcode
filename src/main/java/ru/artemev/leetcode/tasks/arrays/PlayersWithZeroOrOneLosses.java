@@ -1,4 +1,4 @@
-package ru.artemev.leetcode.tasks;
+package ru.artemev.leetcode.tasks.arrays;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,6 +6,18 @@ import java.util.Map;
 import java.util.TreeMap;
 
 public class PlayersWithZeroOrOneLosses {
+
+    /*
+    You are given an integer array matches where
+    matches[i] = [winneri, loseri]
+    indicates that the player winneri defeated player loseri in a match.
+
+    Return a list answer of size 2 where:
+
+    answer[0] is a list of all players that have not lost any matches.
+    answer[1] is a list of all players that have lost exactly one match.
+    The values in the two lists should be returned in increasing order.
+     */
     public static List<List<Integer>> findWinners(int[][] matches) {
         List<List<Integer>> ans = List.of(new ArrayList<>(), new ArrayList<>());
         Map<Integer, Integer> matchesResult = new TreeMap<>();

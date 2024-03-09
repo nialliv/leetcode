@@ -1,4 +1,4 @@
-package ru.artemev.leetcode.tasks;
+package ru.artemev.leetcode.tasks.math;
 
 import org.springframework.stereotype.Component;
 

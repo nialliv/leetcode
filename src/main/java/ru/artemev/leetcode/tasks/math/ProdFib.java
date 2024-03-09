@@ -1,4 +1,4 @@
-package ru.artemev.leetcode.tasks;
+package ru.artemev.leetcode.tasks.math;
 
 public class ProdFib {
     public static long[] productFibOld(long prod) {

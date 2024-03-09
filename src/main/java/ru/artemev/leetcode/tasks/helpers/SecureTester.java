@@ -1,4 +1,4 @@
-package ru.artemev.leetcode.tasks;
+package ru.artemev.leetcode.tasks.helpers;
 
 import java.util.regex.Pattern;
 

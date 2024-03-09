@@ -1,4 +1,4 @@
-package ru.artemev.leetcode.tasks;
+package ru.artemev.leetcode.tasks.arrays;
 
 import java.util.HashMap;
 import java.util.Map;

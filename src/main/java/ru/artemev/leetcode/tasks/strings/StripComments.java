@@ -1,4 +1,4 @@
-package ru.artemev.leetcode.tasks;
+package ru.artemev.leetcode.tasks.strings;
 
 import java.util.Arrays;
 import java.util.stream.Collectors;

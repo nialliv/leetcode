@@ -1,4 +1,4 @@
-package ru.artemev.leetcode.tasks;
+package ru.artemev.leetcode.tasks.math;
 
 public class Palindrome {
     public static boolean isPalindrome(int x) {

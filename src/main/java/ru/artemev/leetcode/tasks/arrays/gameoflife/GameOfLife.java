@@ -1,4 +1,4 @@
-package ru.artemev.leetcode.tasks.gameoflife;
+package ru.artemev.leetcode.tasks.arrays.gameoflife;
 
 import org.springframework.stereotype.Component;
 

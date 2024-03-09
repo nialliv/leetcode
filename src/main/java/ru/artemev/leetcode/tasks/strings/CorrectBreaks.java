@@ -1,4 +1,4 @@
-package ru.artemev.leetcode.tasks;
+package ru.artemev.leetcode.tasks.strings;
 
 public class CorrectBreaks {
     public static boolean getSolution(String line) {
