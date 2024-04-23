@@ -1,18 +1,12 @@
 package ru.artemev.leetcode.tasks.math;
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 public class Greed {
     public static int greedy(int[] dice) {
         int result = 0;
         Map<Integer, Integer> diceCounter = new HashMap<>();
-
-        List<Integer> list = List.of(1, 2, 3, 4, 5);
-        Integer i1 = list.stream()
-                .findFirst()
-                .orElse(0);
 
         for (int i : dice) {
             if (!diceCounter.containsKey(i)) {

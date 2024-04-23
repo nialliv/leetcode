@@ -32,7 +32,7 @@ public class TicketTask {
 
     public String getSolution(List<Ticket> tickets) {
         tickets.sort(COMPARE_BY_PRIORITY);
-        System.out.println(tickets);
+        log.info(tickets.toString());
         return tickets.stream()
                 .filter(ticket -> ticket.getNumber() == 11)
                 .findFirst()
