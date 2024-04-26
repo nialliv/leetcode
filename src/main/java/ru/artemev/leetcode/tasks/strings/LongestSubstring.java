@@ -1,33 +1,14 @@
 package ru.artemev.leetcode.tasks.strings;
 
-import org.springframework.stereotype.Component;
-
 import java.util.HashSet;
 import java.util.Set;
 
+import org.springframework.stereotype.Component;
+
 @Component
-public class Task1 {
+public class LongestSubstring {
 
-    public static void run(String string) {
-
-        int bestResult = 0;
-        Set<Character> characters = new HashSet<>();
-        for (int i = 0; i < string.length(); i++) {
-            char currentChar = string.charAt(i);
-            if (!characters.contains(currentChar)) {
-                characters.add(currentChar);
-            } else {
-
-                if (characters.size() > bestResult) {
-                    bestResult = characters.size();
-                }
-                characters.clear();
-            }
-        }
-        System.out.println("Result = " + bestResult);
-    }
-
-    public static int runNotMySolution(String s) {
+    public static int lengthOfLongestSubstring(String s) {
         int n = s.length();
         int maxLength = 0;
         Set<Character> charSet = new HashSet<>();
