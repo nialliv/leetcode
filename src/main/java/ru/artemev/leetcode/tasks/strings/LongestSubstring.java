@@ -1,9 +1,9 @@
 package ru.artemev.leetcode.tasks.strings;
 
+import org.springframework.stereotype.Component;
+
 import java.util.HashSet;
 import java.util.Set;
-
-import org.springframework.stereotype.Component;
 
 @Component
 public class LongestSubstring {

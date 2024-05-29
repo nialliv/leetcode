@@ -7,8 +7,8 @@ import lombok.Data;
 @AllArgsConstructor
 public class Ticket {
 
-  private long number;
-  private boolean priority;
-  private String type;
-  private String key;
+    private long number;
+    private boolean priority;
+    private String type;
+    private String key;
 }

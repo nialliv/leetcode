@@ -35,7 +35,7 @@ public class RomanDigits {
         );
 
         for (int i = 0; i < s.length(); i++) {
-            if(i < s.length() - 1 && m.get(s.charAt(i)) < m.get(s.charAt(i + 1))) {
+            if (i < s.length() - 1 && m.get(s.charAt(i)) < m.get(s.charAt(i + 1))) {
                 result -= m.get(s.charAt(i));
             } else {
                 result += m.get(s.charAt(i));
