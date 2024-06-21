@@ -13,6 +13,7 @@ public class SumFct {
             tmpFib = firstFib.add(secondFib);
             firstFib = secondFib;
             secondFib = tmpFib;
+            l;jksangjlasdjvb
         }
         return result.multiply(BigInteger.valueOf(4));
     }
