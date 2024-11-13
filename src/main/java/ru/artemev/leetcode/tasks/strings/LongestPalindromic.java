@@ -35,5 +35,4 @@ public class LongestPalindromic {
         return s.substring(left + 1, right);
     }
 
-
 }
