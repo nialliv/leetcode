@@ -37,4 +37,33 @@ public class TreeSum {
         }
         return ans;
     }
+
+    public static int threeSumClosest(int[] nums, int target) {
+        int n = nums.length;
+        int minDiff = Integer.MAX_VALUE;
+        int res = 0;
+
+        if (nums.length == 3) {
+            return Arrays.stream(nums).sum();
+        }
+
+        for (int p1 = 0; p1 < n - 2; p1++) {
+            for (int p2 = p1 + 1; p2 < n - 1; p2++) {
+                for (int p3 = p2 + 1; p3 < n; p3++) {
+                    int currSum = nums[p1] + nums[p2] + nums[p3];
+
+                    int currDiff = Math.abs(currSum - target);
+
+                    if (currDiff < minDiff) {
+                        res = currSum;
+                        minDiff = currDiff;
+                    } else if (currDiff == minDiff) {
+                        res = Math.max(res, currSum);
+                    }
+                }
+            }
+        }
+
+        return res;
+    }
 }
