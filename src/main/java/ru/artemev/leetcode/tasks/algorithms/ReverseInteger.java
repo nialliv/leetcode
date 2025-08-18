@@ -1,4 +1,4 @@
-package ru.artemev.leetcode.tasks;
+package ru.artemev.leetcode.tasks.algorithms;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;

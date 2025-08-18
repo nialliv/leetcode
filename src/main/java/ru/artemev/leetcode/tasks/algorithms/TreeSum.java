@@ -8,7 +8,6 @@ public class TreeSum {
     public static List<List<Integer>> treeSum(int[] nums) {
         List<List<Integer>> ans = new ArrayList<>();
         Arrays.sort(nums);
-
         for (int i = 0; i < nums.length - 2; i++) {
             if (i > 0 && nums[i] == nums[i - 1]) {
                 continue;
@@ -36,7 +35,6 @@ public class TreeSum {
                 }
             }
         }
-
         return ans;
     }
 }
