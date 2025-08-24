@@ -4,6 +4,7 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 import org.springframework.boot.test.context.SpringBootTest;
+import ru.artemev.leetcode.tasks.yandex.middle.MinOfSegment;
 
 import java.util.stream.Stream;
 

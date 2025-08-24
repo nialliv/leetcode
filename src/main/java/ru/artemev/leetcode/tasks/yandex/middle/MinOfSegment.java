@@ -1,4 +1,4 @@
-package ru.artemev.leetcode.tasks.yandex;
+package ru.artemev.leetcode.tasks.yandex.middle;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

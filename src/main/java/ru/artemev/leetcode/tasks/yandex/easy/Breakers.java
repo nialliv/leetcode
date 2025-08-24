@@ -1,4 +1,4 @@
-package ru.artemev.leetcode.tasks.yandex;
+package ru.artemev.leetcode.tasks.yandex.easy;
 
 import java.util.HashMap;
 import java.util.Map;
